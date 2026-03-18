@@ -13,6 +13,8 @@ qc = QuantumCircuit(4, 4)
 # This is what pushes the qubit(s) into superposition
 qc.h([0, 1, 2, 3])
 
+# The Hadamard gate pushes a qubit into superposition, producing equal amplitudes of 0.707 in both slots.
+# You then apply the Born rule — squaring the amplitudes — to get the probabilities, which are 0.5 or 50% for each outcome.
 
 # Measure all qubits into the classical bits
 # To measure we use the Born rule which says that a probability of
