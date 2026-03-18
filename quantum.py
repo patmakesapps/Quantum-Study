@@ -41,3 +41,7 @@ print(f"Random number: {random_number} (0-15)")
 # # The Tensor product takes two seperate 2 slot qubits and combines them into one 4 slot vector.
 # We need that because 2 qubits have 4 possible outcomes. When the resulting vector cannot be refactored
 # back to it's original state the result is entanglement.
+
+# Bell State: [0.707, 0, 0, 0.707] — 50% chance of 00, 
+# 0% chance of 01, 0% chance of 10, 50% chance of 11.
+# Cannot be factored back into two separate qubit vectors.
