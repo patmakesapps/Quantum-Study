@@ -7,7 +7,7 @@ qc = QuantumCircuit(4, 4)
 # The Hadamard gate is a 2x2 matrix that takes a qubit in definite 0,
 # applies matrix multiplication, and produces equal amplitudes of 0.707
 # in both slots putting the qubit into superposition. The -1 in the matrix
-# encodes phase, which enables interference.
+# encodes phase, which enables interference. It cancels out wrong answers and reinforces correct ones.
 
 # Apply a Hadamard gate to each qubit
 # This is what pushes the qubit(s) into superposition
