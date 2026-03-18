@@ -21,6 +21,8 @@ qc.h([0, 1, 2, 3])
 # a particular outcome equals the square of its amplitude.
 # So in this case 0.707squared=0.5 (50% chance)
 # Born Rule - governs what happens when you measure a qubit.
+# Born Rule (definition) The probability of a particular outcome equals the square of its amplitude.
+# probability = amplitude²
 qc.measure([0, 1, 2, 3], [0, 1, 2, 3])
 
 # Run on the local simulator
